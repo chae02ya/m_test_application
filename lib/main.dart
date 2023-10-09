@@ -76,7 +76,7 @@ class MyApp extends StatelessWidget {
                 Container(  // 가격
                       decoration: BoxDecoration(border: Border.all(color: Colors.black)),
                       width:380, height:30,
-                      child: Text('210,000원', style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),)
+                      child: Text('210,000원', style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: Colors.red),)
                   ),
                 Container(  // 좋아요 개수
                     decoration: BoxDecoration(border: Border.all(color: Colors.black)),
